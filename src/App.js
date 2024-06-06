@@ -37,7 +37,7 @@ const App = () => {
 
   const handleUpdateUser = (index, updatedUser) => {
     const updatedUsers = users.map((user, i) => (i === index ? updatedUser : user));
-    console.log(updatedUser,741);
+    console.log(updatedUser,742);
 
     setUsers(updatedUsers);
 
