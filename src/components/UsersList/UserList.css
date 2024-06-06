@@ -1,0 +1,74 @@
+/* src/components/UserList.css */
+
+.user-list-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 50px auto; /* Center align the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  
+  .user-list-container h1 {
+    text-align: center; /* Center align the heading */
+    margin-bottom: 20px;
+    color: #333; /* Dark color for heading */
+  }
+  
+  .user-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-list-container li {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to list items */
+  }
+  
+  .user-list-container li h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .user-list-container li p {
+    margin: 5px 0;
+    color: #555; /* Darker color for text */
+  }
+  
+  .user-list-container li ul {
+    margin-top: 10px;
+  }
+  
+  .user-list-container li ul li {
+    background-color: #f1f1f1;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .user-list-container button, .user-list-container a {
+    background-color: #007bff; /* Blue background for buttons and links */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .user-list-container button:hover, .user-list-container a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .add-user-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
